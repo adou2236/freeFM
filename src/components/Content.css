@@ -1,0 +1,60 @@
+.dark{
+    height: 100%;
+    float: left;
+    /*width: auto;*/
+    /*min-width: 85%;*/
+    /*max-width: 95%;*/
+    padding: 15px;
+    display: block;
+    overflow: auto;
+    overflow-x: hidden;
+    /*min-height: 280px;*/
+    /*background-color: #001529;*/
+}
+.breadToast{
+    text-align: right;
+    width: 100%;
+    display: block;
+}
+.innerArea{
+    /*padding:30px 50px*/
+}
+.pagination{
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center
+}
+.cover{
+    width: 190px;
+    height: 190px;
+
+
+}
+.albumBox{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+.text {
+    font-size: 12px;
+    padding: 10px 12px 0 12px;
+    color:#a3a3a3;
+}
+.title{
+    color: black;
+    font-size: 20px;
+}
+
+.albumList li{
+    margin: 10px;
+    list-style: none;
+    float: left;
+    width: 190px;
+    height: 300px;
+}
+.albumList ul {
+    display: inline-block;
+    padding: 20px
+}
