@@ -41,8 +41,6 @@ class Header extends React.Component {
             crossDomain: true,
         }).then(response=>{
             this.setState({mainType:response.data.mainType})
-
-
         }).catch(error=>{
             console.log(error)
         })
